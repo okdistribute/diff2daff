@@ -1,0 +1,24 @@
+{
+  "name": "diff2daff",
+  "version": "1.0.0",
+  "description": "take what comes from a diffStream and make it into a daff visual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karissa/diff2daff.git"
+  },
+  "keywords": [
+    "diff",
+    "daff",
+    "visualize"
+  ],
+  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/karissa/diff2daff/issues"
+  },
+  "homepage": "https://github.com/karissa/diff2daff"
+}
