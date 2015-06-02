@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/karissa/diff2daff/issues"
   },
-  "homepage": "https://github.com/karissa/diff2daff"
+  "homepage": "https://github.com/karissa/diff2daff",
+  "dependencies": {
+    "daff": "^1.2.13",
+    "debug": "^2.2.0"
+  }
 }
