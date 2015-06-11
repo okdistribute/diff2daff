@@ -1,6 +1,6 @@
 {
   "name": "diff2daff",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "take what comes from a diffStream and make it into a daff visual",
   "main": "index.js",
   "scripts": {
