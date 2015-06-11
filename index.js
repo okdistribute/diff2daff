@@ -3,7 +3,11 @@ var debug = require('debug')('diff2daff')
 
 function diff2daff (changes, opts, cb) {
   // takes a diff stream to new heights
-  if (!cb) cb = opts
+  if (!cb) {
+    cb = opts
+    opts = {}
+  }
+
   var rowPath = opts.rowPath || function (data) { return data }
   var data1 = []
   var data2 = []
@@ -28,7 +32,7 @@ function diff2daff (changes, opts, cb) {
   debug(tables)
   var visual = tablesToVisual(tables, opts)
 
-  cb(tables, visual)
+  return visual
 }
 
 function tablesToVisual (tables, opts) {
